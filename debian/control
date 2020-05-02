@@ -1,15 +1,16 @@
-Source: libdisplaycore-font-cp882
+Source: libcariad-font-cp882
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-font-cp882
+Package: libcariad-font-cp882
+Replaces: libdisplaycore-font-cp882
 Section: main
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Fonts
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: CP882.h
 Description: CP882 (VGA Code Page 882)
